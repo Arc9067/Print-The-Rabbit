@@ -105,7 +105,6 @@ main {
   width: 100%;
 }
 main #about {
-  min-height: 100vh;
   width: 100%;
   padding-block: 50px;
 }
@@ -129,4 +128,38 @@ main #about ul li {
     font-size: 28px;
     line-height: 39px;
   }
+}
+main #roadmap {
+  width: 100%;
+  padding-block: 50px;
+}
+main #roadmap h1.title {
+  font-size: 64px;
+  line-height: 89px;
+}
+@media (max-width: 700px) {
+  main #roadmap h1.title {
+    font-size: 40px;
+    line-height: 56px;
+  }
+}
+main #roadmap .logo {
+  max-width: 15rem;
+}
+main #roadmap .row div {
+  margin-inline: auto;
+}
+main #roadmap .row div h2.head {
+  font-size: 40px;
+  line-height: 56px;
+}
+main #roadmap .row div .line {
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+}
+main #roadmap .row div li {
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

@@ -106,7 +106,6 @@ main {
   width: 100%;
 
   #about {
-    min-height: 100vh;
     width: 100%;
     padding-block: 50px;
 
@@ -129,6 +128,44 @@ main {
         @media (max-width: 700px) {
           font-size: 28px;
           line-height: 39px;
+        }
+      }
+    }
+  }
+
+  #roadmap {
+    width: 100%;
+    padding-block: 50px;
+
+    h1.title {
+      font-size: 64px;
+      line-height: 89px;
+
+      @media (max-width: 700px) {
+        font-size: 40px;
+        line-height: 56px;
+      }
+    }
+    .logo {
+      max-width: 15rem;
+    }
+    .row {
+      div {
+        margin-inline: auto;
+
+        h2.head {
+          font-size: 40px;
+          line-height: 56px;
+        }
+        .line {
+          height: 2px;
+          width: 100%;
+          background: #ffffff;
+        }
+        li {
+          font-size: 24px;
+          line-height: 33px;
+          text-transform: uppercase;
         }
       }
     }
