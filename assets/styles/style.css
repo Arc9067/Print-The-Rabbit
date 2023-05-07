@@ -53,6 +53,7 @@ body {
   color: var(--second-color);
   color: var(--white);
   background: #8350ed;
+  -webkit-text-stroke: 2px rgb(255, 153, 0);
 }
 
 h1,
@@ -79,6 +80,7 @@ img {
 
 /*===== CLASS CSS ===== */
 #hero {
+  min-height: 100vh;
   width: 100%;
   padding-block: 50px;
   background: linear-gradient(180deg, #4c2de2 0%, #8350ed 100%);
@@ -108,7 +110,8 @@ img {
 #tokenomics {
   width: 100%;
   padding-block: 50px;
-  background: linear-gradient(180deg, #4c2de2 0%, #8350ed 100%);
+  background: url(../img/bg.png) center center no-repeat;
+  background-size: cover;
 }
 #tokenomics .con {
   width: 100%;
@@ -116,19 +119,19 @@ img {
   border-radius: 12px;
   margin-inline: auto;
 }
-@media (min-width: 700px) {
-  #tokenomics .con {
-    width: 500px;
-  }
-}
 #tokenomics h1.title {
   font-size: 64px;
   line-height: 89px;
   color: #ffffff;
+  -webkit-text-stroke: 2px rgb(255, 153, 0);
 }
 @media (max-width: 700px) {
   #tokenomics h1.title {
-    font-size: 55px;
-    word-break: break-all;
+    font-size: 40px;
+    line-height: 140%;
   }
+}
+#tokenomics h2 {
+  font-size: 48px;
+  line-height: 67px;
 }/*# sourceMappingURL=style.css.map */
